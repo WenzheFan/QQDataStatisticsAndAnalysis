@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F40B2240A2FA68BB036223A /* libPods-QQ分享测试.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B244B37BA6771AC0ED59074B /* libPods-QQ分享测试.a */; };
 		18169F6120C27DDD00DA944F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F6020C27DDD00DA944F /* AppDelegate.m */; };
 		18169F6420C27DDD00DA944F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F6320C27DDD00DA944F /* ViewController.m */; };
 		18169F6720C27DDD00DA944F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18169F6520C27DDD00DA944F /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		18169F6F20C27DE000DA944F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F6E20C27DE000DA944F /* main.m */; };
 		18169F7920C27DE000DA944F /* QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F7820C27DE000DA944F /* QQ____Tests.m */; };
 		18169F8420C27DE000DA944F /* QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F8320C27DE000DA944F /* QQ____UITests.m */; };
+		18169F9520C286BA00DA944F /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F9320C286BA00DA944F /* HomePageViewController.m */; };
+		18169F9620C286BA00DA944F /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18169F9420C286BA00DA944F /* HomePageViewController.xib */; };
+		18169F9A20C286DA00DA944F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F9820C286DA00DA944F /* RegisterViewController.m */; };
+		18169F9B20C286DA00DA944F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18169F9920C286DA00DA944F /* RegisterViewController.xib */; };
+		18169FA120C286FD00DA944F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18169F9F20C286FD00DA944F /* LoginViewController.m */; };
+		18169FA220C286FD00DA944F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18169FA020C286FD00DA944F /* LoginViewController.xib */; };
+		3CF222ED6AA0C81601016845 /* libPods-QQ分享测试UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0BD9B36428AAD77A80A073 /* libPods-QQ分享测试UITests.a */; };
+		BD83E3D1855C9BFD86A160D7 /* libPods-QQ分享测试Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4642B7E2A643CD1A46A370 /* libPods-QQ分享测试Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		18169F7F20C27DE000DA944F /* QQ分享测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ分享测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18169F8320C27DE000DA944F /* QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____UITests.m"; sourceTree = "<group>"; };
 		18169F8520C27DE000DA944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18169F9120C27FC800DA944F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18169F9220C286BA00DA944F /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		18169F9320C286BA00DA944F /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		18169F9420C286BA00DA944F /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		18169F9720C286DA00DA944F /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		18169F9820C286DA00DA944F /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		18169F9920C286DA00DA944F /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		18169F9E20C286FD00DA944F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18169F9F20C286FD00DA944F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		18169FA020C286FD00DA944F /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2BD0A9BD6F4DE00E1F8FB639 /* Pods-QQ分享测试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试/Pods-QQ分享测试.release.xcconfig"; sourceTree = "<group>"; };
+		2E0BD9B36428AAD77A80A073 /* libPods-QQ分享测试UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQ分享测试UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D44BD9E012B8DD581B4395 /* Pods-QQ分享测试UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试UITests/Pods-QQ分享测试UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D4642B7E2A643CD1A46A370 /* libPods-QQ分享测试Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQ分享测试Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F4AEBEE1591314717168FF /* Pods-QQ分享测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试/Pods-QQ分享测试.debug.xcconfig"; sourceTree = "<group>"; };
+		7E073531210A9537E6116B43 /* Pods-QQ分享测试Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试Tests/Pods-QQ分享测试Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B244B37BA6771AC0ED59074B /* libPods-QQ分享测试.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQ分享测试.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDD89A98049F75910B9B9CF /* Pods-QQ分享测试UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试UITests/Pods-QQ分享测试UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F701687DE91D104C731BA6FE /* Pods-QQ分享测试Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ分享测试Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQ分享测试Tests/Pods-QQ分享测试Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F40B2240A2FA68BB036223A /* libPods-QQ分享测试.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD83E3D1855C9BFD86A160D7 /* libPods-QQ分享测试Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF222ED6AA0C81601016845 /* libPods-QQ分享测试UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +112,13 @@
 		18169F5320C27DDD00DA944F = {
 			isa = PBXGroup;
 			children = (
+				18169F9120C27FC800DA944F /* README.md */,
 				18169F5E20C27DDD00DA944F /* QQ分享测试 */,
 				18169F7720C27DE000DA944F /* QQ分享测试Tests */,
 				18169F8220C27DE000DA944F /* QQ分享测试UITests */,
 				18169F5D20C27DDD00DA944F /* Products */,
+				DCDFFA2D7E31CA136AC84944 /* Pods */,
+				B7BD2E2856666C6AF9FD64C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,15 @@
 				18169F6020C27DDD00DA944F /* AppDelegate.m */,
 				18169F6220C27DDD00DA944F /* ViewController.h */,
 				18169F6320C27DDD00DA944F /* ViewController.m */,
+				18169F9E20C286FD00DA944F /* LoginViewController.h */,
+				18169F9F20C286FD00DA944F /* LoginViewController.m */,
+				18169FA020C286FD00DA944F /* LoginViewController.xib */,
+				18169F9720C286DA00DA944F /* RegisterViewController.h */,
+				18169F9820C286DA00DA944F /* RegisterViewController.m */,
+				18169F9920C286DA00DA944F /* RegisterViewController.xib */,
+				18169F9220C286BA00DA944F /* HomePageViewController.h */,
+				18169F9320C286BA00DA944F /* HomePageViewController.m */,
+				18169F9420C286BA00DA944F /* HomePageViewController.xib */,
 				18169F6520C27DDD00DA944F /* Main.storyboard */,
 				18169F6820C27DE000DA944F /* Assets.xcassets */,
 				18169F6A20C27DE000DA944F /* LaunchScreen.storyboard */,
@@ -132,6 +175,29 @@
 			path = "QQ分享测试UITests";
 			sourceTree = "<group>";
 		};
+		B7BD2E2856666C6AF9FD64C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B244B37BA6771AC0ED59074B /* libPods-QQ分享测试.a */,
+				5D4642B7E2A643CD1A46A370 /* libPods-QQ分享测试Tests.a */,
+				2E0BD9B36428AAD77A80A073 /* libPods-QQ分享测试UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDFFA2D7E31CA136AC84944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65F4AEBEE1591314717168FF /* Pods-QQ分享测试.debug.xcconfig */,
+				2BD0A9BD6F4DE00E1F8FB639 /* Pods-QQ分享测试.release.xcconfig */,
+				F701687DE91D104C731BA6FE /* Pods-QQ分享测试Tests.debug.xcconfig */,
+				7E073531210A9537E6116B43 /* Pods-QQ分享测试Tests.release.xcconfig */,
+				56D44BD9E012B8DD581B4395 /* Pods-QQ分享测试UITests.debug.xcconfig */,
+				EBDD89A98049F75910B9B9CF /* Pods-QQ分享测试UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18169F8820C27DE000DA944F /* Build configuration list for PBXNativeTarget "QQ分享测试" */;
 			buildPhases = (
+				9F50617E61B5922807AEACA5 /* [CP] Check Pods Manifest.lock */,
 				18169F5820C27DDD00DA944F /* Sources */,
 				18169F5920C27DDD00DA944F /* Frameworks */,
 				18169F5A20C27DDD00DA944F /* Resources */,
@@ -156,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18169F8B20C27DE000DA944F /* Build configuration list for PBXNativeTarget "QQ分享测试Tests" */;
 			buildPhases = (
+				2343D911C26C37D2493F1F73 /* [CP] Check Pods Manifest.lock */,
 				18169F7020C27DE000DA944F /* Sources */,
 				18169F7120C27DE000DA944F /* Frameworks */,
 				18169F7220C27DE000DA944F /* Resources */,
@@ -174,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18169F8E20C27DE000DA944F /* Build configuration list for PBXNativeTarget "QQ分享测试UITests" */;
 			buildPhases = (
+				D3257E7D5A40FCE62772A33D /* [CP] Check Pods Manifest.lock */,
 				18169F7B20C27DE000DA944F /* Sources */,
 				18169F7C20C27DE000DA944F /* Frameworks */,
 				18169F7D20C27DE000DA944F /* Resources */,
@@ -235,6 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18169F9620C286BA00DA944F /* HomePageViewController.xib in Resources */,
+				18169F9B20C286DA00DA944F /* RegisterViewController.xib in Resources */,
+				18169FA220C286FD00DA944F /* LoginViewController.xib in Resources */,
 				18169F6C20C27DE000DA944F /* LaunchScreen.storyboard in Resources */,
 				18169F6920C27DE000DA944F /* Assets.xcassets in Resources */,
 				18169F6720C27DDD00DA944F /* Main.storyboard in Resources */,
@@ -257,11 +329,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2343D911C26C37D2493F1F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQ分享测试Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F50617E61B5922807AEACA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQ分享测试-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3257E7D5A40FCE62772A33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQ分享测试UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18169F5820C27DDD00DA944F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18169F9A20C286DA00DA944F /* RegisterViewController.m in Sources */,
+				18169F9520C286BA00DA944F /* HomePageViewController.m in Sources */,
+				18169FA120C286FD00DA944F /* LoginViewController.m in Sources */,
 				18169F6420C27DDD00DA944F /* ViewController.m in Sources */,
 				18169F6F20C27DE000DA944F /* main.m in Sources */,
 				18169F6120C27DDD00DA944F /* AppDelegate.m in Sources */,
@@ -431,15 +563,17 @@
 		};
 		18169F8920C27DE000DA944F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F4AEBEE1591314717168FF /* Pods-QQ分享测试.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74K483LR5N;
 				INFOPLIST_FILE = "QQ分享测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newyifenqi.QQ----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newyifenqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,15 +581,17 @@
 		};
 		18169F8A20C27DE000DA944F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD0A9BD6F4DE00E1F8FB639 /* Pods-QQ分享测试.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74K483LR5N;
 				INFOPLIST_FILE = "QQ分享测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newyifenqi.QQ----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newyifenqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +599,7 @@
 		};
 		18169F8C20C27DE000DA944F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F701687DE91D104C731BA6FE /* Pods-QQ分享测试Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +618,7 @@
 		};
 		18169F8D20C27DE000DA944F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E073531210A9537E6116B43 /* Pods-QQ分享测试Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +637,7 @@
 		};
 		18169F8F20C27DE000DA944F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D44BD9E012B8DD581B4395 /* Pods-QQ分享测试UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "QQ分享测试UITests/Info.plist";
@@ -516,6 +655,7 @@
 		};
 		18169F9020C27DE000DA944F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDD89A98049F75910B9B9CF /* Pods-QQ分享测试UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "QQ分享测试UITests/Info.plist";
